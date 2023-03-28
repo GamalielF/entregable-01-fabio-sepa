@@ -1,0 +1,58 @@
+body{
+    font-size: 14px;
+    font-weight: bold;
+    
+}
+
+
+.containerInfo_title {
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 5px 5px 1px var(--orange);
+    text-transform: uppercase;
+}
+
+.container_Phrase{
+    color: gray;
+    background-image: url("/images/Rectangle.png");
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    aspect-ratio: 2;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    max-width:400px;
+    opacity: .9;
+}
+
+.comillas{
+    color: black;
+    align-items: end;
+    padding: 10px;
+    justify-content: end;
+    transform: translatey(50%);
+}
+
+.containerInfo_autor{
+    border-color: rgb(255, 255, 255, 0-618);
+    color: grey;
+    font-weight: lighter;
+    background-size: contain;
+    background-color: azure;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px 20px;
+    max-width: max-content;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: .6;
+}
