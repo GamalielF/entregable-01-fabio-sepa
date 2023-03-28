@@ -1,5 +1,5 @@
 import React from 'react'
-import "./styles/Button.css"
+import "./styles/button.css"
 
 export const Button = ({handleNewQuote}) => {
   return <button className='button' onClick={handleNewQuote}>Probar mi suerte</button>;
